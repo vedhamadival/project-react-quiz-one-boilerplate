@@ -3,7 +3,8 @@ import { Component } from 'react'
 export default class Result extends Component {
   render() {
     return (
-      <div>
+      <>
+      <div id='final'>
         <h2>Result</h2>
          <div id='result-container'>
             <h3>You need more practice!</h3>
@@ -30,6 +31,7 @@ export default class Result extends Component {
             <button id="back-to-home">Back to Home</button>
         </div>
       </div>
+      </>
     )
   }
 }

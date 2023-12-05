@@ -3,7 +3,7 @@ import { Component } from 'react'
 export default class Quiz extends Component {
   render() {
     return (
-      <>
+      <div id="quiz">
         <div id='container'>
             <h1>Question</h1>
             <h4>1 of 15</h4>
@@ -22,7 +22,7 @@ export default class Quiz extends Component {
                 <button id="quit">Quit</button>
             </div>
         </div>
-      </>
+      </div>
     )
   }
 }
